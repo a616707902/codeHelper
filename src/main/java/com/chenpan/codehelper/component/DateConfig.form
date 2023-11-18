@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.chenpan.codehelper.component.DateConfig">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="31" width="1634" height="472"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="76bad">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6fd48">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6b367" class="javax.swing.JLabel" binding="ipLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="服务器IP:"/>
+        </properties>
+      </component>
+      <component id="57852" class="javax.swing.JTextField" binding="ipTextField">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="127.0.0.1"/>
+        </properties>
+      </component>
+      <component id="d2608" class="javax.swing.JButton" binding="ipOther">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="···"/>
+        </properties>
+      </component>
+      <component id="e496" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="用户名:"/>
+        </properties>
+      </component>
+      <component id="ac57" class="javax.swing.JLabel" binding="passwdLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="密码:"/>
+        </properties>
+      </component>
+      <component id="8d0d2" class="javax.swing.JTextField" binding="nameTextField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="root"/>
+        </properties>
+      </component>
+      <component id="45de5" class="javax.swing.JLabel" binding="portLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="端口:"/>
+        </properties>
+      </component>
+      <component id="68f81" class="javax.swing.JTextField" binding="portTextField">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="3306"/>
+        </properties>
+      </component>
+      <component id="417f6" class="javax.swing.JLabel" binding="dbLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="数据库:"/>
+        </properties>
+      </component>
+      <component id="d14db" class="javax.swing.JTextField" binding="dbTextField">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="mysql"/>
+        </properties>
+      </component>
+      <component id="b852c" class="javax.swing.JLabel" binding="urlLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="连接URL:"/>
+        </properties>
+      </component>
+      <component id="4599c" class="javax.swing.JRadioButton" binding="mysqlRadioButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <selected value="true"/>
+          <text value="Mysql"/>
+        </properties>
+      </component>
+      <component id="e8005" class="javax.swing.JRadioButton" binding="oracleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oracle"/>
+        </properties>
+      </component>
+      <component id="c6c68" class="javax.swing.JLabel" binding="dbTypeLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="数据库类型:"/>
+        </properties>
+      </component>
+      <component id="910be" class="javax.swing.JButton" binding="testButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="测试连接"/>
+        </properties>
+      </component>
+      <component id="7dc6e" class="javax.swing.JButton" binding="cancelButton">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="取消"/>
+        </properties>
+      </component>
+      <component id="19556" class="javax.swing.JButton" binding="connectionButton">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="连接"/>
+        </properties>
+      </component>
+      <component id="fa069" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="123456"/>
+        </properties>
+      </component>
+      <scrollpane id="fb689">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a5950" class="javax.swing.JTextArea" binding="urlTextArea">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <editable value="false"/>
+              <font name="DejaVu Sans Mono"/>
+              <lineWrap value="false"/>
+              <rows value="0"/>
+              <text value="jdbc:mysql://10.60.27.49:3306/cowin-task-manage?&#10;characterEncoding=UTF-8&amp;useUnicode=true&amp;useSSL=false&amp;&#10;tinyInt1isBit=false&amp;allowPublicKeyRetrieval=true&amp;&#10;serverTimezone=Asia/Shanghai           "/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="dbType">
+      <member id="4599c"/>
+      <member id="e8005"/>
+    </group>
+  </buttonGroups>
+</form>
